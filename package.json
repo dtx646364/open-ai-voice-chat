@@ -1,0 +1,23 @@
+{
+  "name": "hangout-haven-ai-voice",
+  "version": "1.0.1",
+  "private": true,
+  "description": "Automatic Discord voice conversations powered by OpenAI",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "check": "node --check src/index.js"
+  },
+  "engines": {
+    "node": ">=22 <25"
+  },
+  "dependencies": {
+    "@discordjs/voice": "^0.19.0",
+    "discord.js": "^14.22.1",
+    "dotenv": "^16.6.1",
+    "openai": "^6.0.0",
+    "prism-media": "^1.3.5",
+    "@discordjs/opus": "^0.10.0",
+    "ffmpeg-static": "^5.2.0"
+  }
+}
